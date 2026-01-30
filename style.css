@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial;
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  color: white;
+}
+
+#shopBtn {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#shop {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 20px;
+  z-index: 20;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#controls {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+#controls button {
+  font-size: 24px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 50%;
+}
